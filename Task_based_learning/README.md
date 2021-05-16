@@ -1,4 +1,4 @@
-# Task-based End-to-end Model Learning in Stochastic Optimization
+# Comparision of Task-based Learning Models for News Vender Problem
 
 This repository is by 
 [Priya L. Donti](https://www.priyadonti.com),
