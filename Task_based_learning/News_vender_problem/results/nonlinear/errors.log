@@ -1,0 +1,12 @@
+2021-04-23 16:20:12.416930: m 10000, model mle-nonlinear, run 0: Q is not SPD.
+2021-04-23 18:34:55.116710: m 10000, model results/nonlinear/inventory_results.csv, run 0: Q is not SPD.
+2021-04-23 19:16:27.997255: m 10000, model results/nonlinear/inventory_results_test.csv, run 0: name 'batch_size' is not defined
+2021-04-23 19:18:16.683340: m 10000, model results/nonlinear/inventory_results_test.csv, run 0: name 'batch_size' is not defined
+2021-04-26 11:02:23.829543: m 100, model policy-nonlinear, run 0: name 'np' is not defined
+2021-04-26 11:02:23.855672: m 200, model policy-nonlinear, run 0: name 'np' is not defined
+2021-04-26 11:02:23.863293: m 300, model policy-nonlinear, run 0: name 'np' is not defined
+2021-04-26 11:02:23.870944: m 500, model policy-nonlinear, run 0: name 'np' is not defined
+2021-04-26 11:02:23.879265: m 1000, model policy-nonlinear, run 0: name 'np' is not defined
+2021-04-26 11:02:23.900720: m 3000, model policy-nonlinear, run 0: name 'np' is not defined
+2021-04-26 11:02:23.931042: m 5000, model policy-nonlinear, run 0: name 'np' is not defined
+2021-04-26 11:02:23.962406: m 10000, model policy-nonlinear, run 0: name 'np' is not defined
