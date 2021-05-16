@@ -66,8 +66,8 @@ def main():
 
         with open(results_file, 'w') as f:
             f.write('{},{}\n'.format('mle_true:', mle_true_score))
-            f.write('{},{},{},{},{},{},{}\n'.format(
-                'm', 'mle-linear', 'mle-nonlinear', 'policy-linear', 'policy-nonlinear', 'task-linear', 'task-nonlinear'))
+            f.write('{},{},{},{},{},{},{},{}\n'.format(
+                'm', 'mle-linear', 'mle-nonlinear', 'policy-linear', 'policy-nonlinear', 'task-linear', 'task-nonlinear', 'topnet'))
 
         for run in range(args.nRuns):
             for m in [100, 200, 300, 500, 1000, 3000, 5000, 10000]:
@@ -159,9 +159,6 @@ def main():
                         print("task_net error!")
                         log_error_and_write(e, save_folder, m, run, results_file,
                             'task-nonlinear', newline=True)
-
-                with open(results_file, 'a') as f:
-                    f.write('\n')
                 
                 # Plot results as we go
                 try:
