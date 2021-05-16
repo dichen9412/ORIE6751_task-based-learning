@@ -1,4 +1,4 @@
-# Comparision of Task-based Learning Models for News Vender Problem
+# Comparison of Task-based Learning Models for News Vender Problem
 
 This repository is used to compare the two methods in
 [Task-based End-to-end Model Learning in Stochastic Optimization](https://arxiv.org/abs/1703.04529) 
